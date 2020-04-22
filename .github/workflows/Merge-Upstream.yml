@@ -14,13 +14,13 @@ on:
     - cron: 0 20 * * *
 
 # 编辑触发
-  push:
-    branches:
+#  push:
+#    branches:
       - master
 
 # 点赞触发
-  watch:
-    types: [started]
+#  watch:
+#    types: [started]
 
 jobs:
   merge:

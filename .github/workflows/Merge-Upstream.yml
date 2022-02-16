@@ -48,7 +48,7 @@ jobs:
         # sed -i '/^\#.*/d' ./tmp/message
         git commit --file="./tmp/message"
         else
-        echo "There is no merge commits.1"
+        echo "There is no merge commits."
         fi
 
     - name: Push Commits
